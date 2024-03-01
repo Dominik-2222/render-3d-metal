@@ -6,7 +6,7 @@
 //
 
 #import "GameViewController.h"
-#import "Renderer.h"
+#import "Renderer.hpp"
 
 @implementation GameViewController
 {

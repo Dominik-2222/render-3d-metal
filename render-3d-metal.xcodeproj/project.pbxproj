@@ -18,14 +18,14 @@
 
 /* Begin PBXFileReference section */
 		051CA8892B91C25700107420 /* render-3d-metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "render-3d-metal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		051CA88C2B91C25700107420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		051CA88C2B91C25700107420 /* AppDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppDelegate.hpp; sourceTree = "<group>"; };
 		051CA88D2B91C25700107420 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		051CA88F2B91C25700107420 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		051CA88F2B91C25700107420 /* Renderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Renderer.hpp; sourceTree = "<group>"; };
 		051CA8902B91C25700107420 /* Renderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Renderer.mm; sourceTree = "<group>"; };
-		051CA8922B91C25700107420 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		051CA8922B91C25700107420 /* GameViewController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameViewController.hpp; sourceTree = "<group>"; };
 		051CA8932B91C25700107420 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
 		051CA8952B91C25700107420 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		051CA8972B91C25700107420 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		051CA8972B91C25700107420 /* ShaderTypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShaderTypes.hpp; sourceTree = "<group>"; };
 		051CA8982B91C25900107420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051CA89B2B91C25900107420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		051CA89D2B91C25900107420 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
@@ -62,14 +62,14 @@
 		051CA88B2B91C25700107420 /* render-3d-metal */ = {
 			isa = PBXGroup;
 			children = (
-				051CA88C2B91C25700107420 /* AppDelegate.h */,
+				051CA88C2B91C25700107420 /* AppDelegate.hpp */,
 				051CA88D2B91C25700107420 /* AppDelegate.mm */,
-				051CA88F2B91C25700107420 /* Renderer.h */,
+				051CA88F2B91C25700107420 /* Renderer.hpp */,
 				051CA8902B91C25700107420 /* Renderer.mm */,
-				051CA8922B91C25700107420 /* GameViewController.h */,
+				051CA8922B91C25700107420 /* GameViewController.hpp */,
 				051CA8932B91C25700107420 /* GameViewController.mm */,
 				051CA8952B91C25700107420 /* Shaders.metal */,
-				051CA8972B91C25700107420 /* ShaderTypes.h */,
+				051CA8972B91C25700107420 /* ShaderTypes.hpp */,
 				051CA8982B91C25900107420 /* Assets.xcassets */,
 				051CA89A2B91C25900107420 /* Main.storyboard */,
 				051CA89D2B91C25900107420 /* main.mm */,
