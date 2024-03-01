@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051CA88E2B91C25700107420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CA88D2B91C25700107420 /* AppDelegate.m */; };
-		051CA8912B91C25700107420 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CA8902B91C25700107420 /* Renderer.m */; };
-		051CA8942B91C25700107420 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CA8932B91C25700107420 /* GameViewController.m */; };
+		051CA88E2B91C25700107420 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 051CA88D2B91C25700107420 /* AppDelegate.mm */; };
+		051CA8912B91C25700107420 /* Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 051CA8902B91C25700107420 /* Renderer.mm */; };
+		051CA8942B91C25700107420 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 051CA8932B91C25700107420 /* GameViewController.mm */; };
 		051CA8962B91C25700107420 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 051CA8952B91C25700107420 /* Shaders.metal */; };
 		051CA8992B91C25900107420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051CA8982B91C25900107420 /* Assets.xcassets */; };
 		051CA89C2B91C25900107420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051CA89A2B91C25900107420 /* Main.storyboard */; };
-		051CA89E2B91C25900107420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CA89D2B91C25900107420 /* main.m */; };
+		051CA89E2B91C25900107420 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 051CA89D2B91C25900107420 /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		051CA8892B91C25700107420 /* render-3d-metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "render-3d-metal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		051CA88C2B91C25700107420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		051CA88D2B91C25700107420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		051CA88D2B91C25700107420 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		051CA88F2B91C25700107420 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
-		051CA8902B91C25700107420 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		051CA8902B91C25700107420 /* Renderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Renderer.mm; sourceTree = "<group>"; };
 		051CA8922B91C25700107420 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		051CA8932B91C25700107420 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		051CA8932B91C25700107420 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
 		051CA8952B91C25700107420 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		051CA8972B91C25700107420 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
 		051CA8982B91C25900107420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051CA89B2B91C25900107420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		051CA89D2B91C25900107420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051CA89D2B91C25900107420 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		051CA89F2B91C25900107420 /* render_3d_metal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = render_3d_metal.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,16 +63,16 @@
 			isa = PBXGroup;
 			children = (
 				051CA88C2B91C25700107420 /* AppDelegate.h */,
-				051CA88D2B91C25700107420 /* AppDelegate.m */,
+				051CA88D2B91C25700107420 /* AppDelegate.mm */,
 				051CA88F2B91C25700107420 /* Renderer.h */,
-				051CA8902B91C25700107420 /* Renderer.m */,
+				051CA8902B91C25700107420 /* Renderer.mm */,
 				051CA8922B91C25700107420 /* GameViewController.h */,
-				051CA8932B91C25700107420 /* GameViewController.m */,
+				051CA8932B91C25700107420 /* GameViewController.mm */,
 				051CA8952B91C25700107420 /* Shaders.metal */,
 				051CA8972B91C25700107420 /* ShaderTypes.h */,
 				051CA8982B91C25900107420 /* Assets.xcassets */,
 				051CA89A2B91C25900107420 /* Main.storyboard */,
-				051CA89D2B91C25900107420 /* main.m */,
+				051CA89D2B91C25900107420 /* main.mm */,
 				051CA89F2B91C25900107420 /* render_3d_metal.entitlements */,
 			);
 			path = "render-3d-metal";
@@ -147,11 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051CA89E2B91C25900107420 /* main.m in Sources */,
+				051CA89E2B91C25900107420 /* main.mm in Sources */,
 				051CA8962B91C25700107420 /* Shaders.metal in Sources */,
-				051CA8912B91C25700107420 /* Renderer.m in Sources */,
-				051CA8942B91C25700107420 /* GameViewController.m in Sources */,
-				051CA88E2B91C25700107420 /* AppDelegate.m in Sources */,
+				051CA8912B91C25700107420 /* Renderer.mm in Sources */,
+				051CA8942B91C25700107420 /* GameViewController.mm in Sources */,
+				051CA88E2B91C25700107420 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
